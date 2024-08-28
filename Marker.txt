@@ -1,0 +1,42 @@
+final List<Marker> _markers = [
+    Marker(
+      markerId: MarkerId('marker_1'),
+      position: LatLng(3.8527005288496983, 11.499877904200474), // San Francisco
+      infoWindow: InfoWindow(title: 'Dispositif alpha'),
+    ),
+    Marker(
+      markerId: MarkerId('marker_2'),
+      position: LatLng(3.8517906382215332, 11.496273015511457), // Los Angeles
+      infoWindow: InfoWindow(title: 'Dispositif Beta'),
+    ),
+    Marker(
+      markerId: MarkerId('marker_3'),
+      position: LatLng(3.8490288466472458, 11.50057527850416), // New York
+      infoWindow: InfoWindow(title: 'Dispositif gamma'),
+    ),
+  ];
+
+
+List<LatLng> polylineCoordinates = [];
+
+void getPolyPoints () async {
+    Polypoints polypoints = Polypoints();
+
+    PolylineResult result = await polypoints.getRouteBetweenCoordinates(google_api_key,
+    PointLatLng(currentPoqition.latitude, currentPosition.longitude),
+    PointLatLng(Marker.latitude, Marker.longitude),
+    );
+
+
+    if(result.points.isNotEmpty){
+        result.points.forEach((PointLatLng)=> polylineCoordinates.add(LatLng(point.latitude, point.longitude)),);
+        setState(() {});
+    }
+}
+
+@override
+void initState(){
+    getPolyPoints()
+    super.initState();
+}
+

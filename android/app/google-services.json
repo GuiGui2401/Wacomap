@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "993547588369",
+    "project_id": "g1-tracking-de-dispositif",
+    "storage_bucket": "g1-tracking-de-dispositif.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993547588369:android:771462f1c85531d19072b0",
+        "android_client_info": {
+          "package_name": "com.example.login_register_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_irMbRfoZwcqWLcaw2IPS5I0FADW-zbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

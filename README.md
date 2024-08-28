@@ -1,20 +1,21 @@
-# Login & Register App UI
+# Wacomap
 
-<img width="380" alt="Login Screen" src="https://github.com/dhyash-simform/login_and_register_app/assets/124861711/b7964622-0766-4629-a16c-f710d6803e2c">
-<img width="380" alt="Register Screen" src="https://github.com/dhyash-simform/login_and_register_app/assets/124861711/91a585b2-f0cc-4857-aa22-290df5dbbe3e">
+An application for locating physical devices that transform water into gas using Google Maps and Firebase. 
+
+<img width="380" alt="Logo" src="https://github.com/GuiGui2401/Wacomap/blob/master/assets/icons/icon.jpg">
 
 - Made with Flutter 💙
 
 
 ## Developed By
 
-- [Yash Dhrangdhariya](https://github.com/dhyash-simform)
+- [GuiGui2401](https://github.com/GuiGui2401)
 
 ## License
 
 ```text
 MIT License
-Copyright (c) 2023 Yash Dhrangdhariya
+Copyright (c) 2024 GuiGui2401
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
